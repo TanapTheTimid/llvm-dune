@@ -3,9 +3,10 @@
 set -e
 set -x
 
+cd $(dirname $0)
+
 if test "$(dirname $0)" != '.'; then
-    echo "The script must be executed from its current directory."
-    exit 1
+    echo "Warning: The script was not executed from its current directory."
 fi
 
 if test "$#" -ne 1; then

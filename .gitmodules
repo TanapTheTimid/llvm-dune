@@ -1,1 +1,5 @@
 
+[submodule "llvm-project"]
+	path = llvm-project
+	url = https://github.com/TanapTheTimid/llvm-project.git
+	branch = release/15.x+opam
